@@ -92,7 +92,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1hSuEG7oplnx4IX6HGsMOjsWb9TCqC4-F1NLjuBz5PCM/edit");
+    postMessage("https://docs.google.com/document/d/1u68PkaUxbSXabWhhcRb4Vyp4lcOZl4-K3QVVkHNQsSQ/edit");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
